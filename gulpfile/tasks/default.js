@@ -12,7 +12,8 @@ const defaultTask = (cb) => {
 
   runSequence(
     [
-      'bundlejs'
+      'bundlejs',
+      'webpackDevServer'
     ],
     cb)
 }
